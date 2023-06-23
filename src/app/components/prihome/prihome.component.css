@@ -1,0 +1,55 @@
+#log{
+    padding: 10px;
+    color: #064068;
+  }
+  
+  #cal{
+    padding: 10px;
+    color: #064068;
+  }
+  
+  .calendar {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-family: Arial, sans-serif;
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-gap: 5px;
+    }
+    
+    .day {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      background-color: #f2f2f2;
+    }
+    
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    
+    .select-wrapper {
+      flex: 1;
+      margin-right: 10px;
+    }
+    
+    select {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    

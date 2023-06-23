@@ -9,6 +9,10 @@ import { LateralComponent } from './components/lateral/lateral.component';
 import { GestionarComponent } from './components/gestionar/gestionar.component';
 import { EstadisticasComponent } from './components/estadisticas/estadisticas.component';
 import { InstitucionalComponent } from './components/institucional/institucional.component';
+import { PrihomeComponent } from './components/prihome/prihome.component';
+import { RegisComponent } from './components/regis/regis.component';
+
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,14 @@ import { InstitucionalComponent } from './components/institucional/institucional
     LateralComponent,
     GestionarComponent,
     EstadisticasComponent,
-    InstitucionalComponent
+    InstitucionalComponent,
+    PrihomeComponent,
+    RegisComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
