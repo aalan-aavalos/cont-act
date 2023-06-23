@@ -1,0 +1,19 @@
+*{
+    align-items: center;
+}
+#Contenido{
+    display: block;
+    width: 900px;
+    margin: 2% auto;
+}
+thead tr{
+    background: black;
+    color: aliceblue;
+    border:solid black 2px;
+}
+td{
+    border: solid 2px black;
+}
+td,th{
+    width: 300px;
+}

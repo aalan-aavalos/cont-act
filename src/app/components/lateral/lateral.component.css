@@ -1,0 +1,12 @@
+.lateral{
+    display: block;
+    float: left;
+    background: gray;
+    margin: 2% 2px;
+}
+ul a{
+    display: block;
+    color: white;
+    border: 2px black;
+    padding: 20px;
+}
