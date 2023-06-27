@@ -27,4 +27,3 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('cont-act app is running!');
   });
 });
-//HOLAAAAAAAAAAAA

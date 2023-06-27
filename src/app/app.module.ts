@@ -13,6 +13,8 @@ import { PrihomeComponent } from './components/prihome/prihome.component';
 import { RegisComponent } from './components/regis/regis.component';
 
 import { FormsModule } from '@angular/forms';
+import { CalendarioComponent } from './components/calendario/calendario.component';
+import { NotificacionesComponent } from './components/notificaciones/notificaciones.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FormsModule } from '@angular/forms';
     EstadisticasComponent,
     InstitucionalComponent,
     PrihomeComponent,
-    RegisComponent
+    RegisComponent,
+    CalendarioComponent,
+    NotificacionesComponent
   ],
   imports: [
     BrowserModule,

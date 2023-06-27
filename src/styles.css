@@ -1,3 +1,31 @@
 body{
     padding: 5px;
 }
+.container{
+    display: block;
+    float: right;
+    background: cadetblue;
+    margin: 10px;
+}
+.form-control{
+    display: block;
+    float: right;
+    background: gainsboro;
+    margin: 10px;
+}
+.alert{
+    display: block;
+    float: left;
+    background: gainsboro;
+    margin: 10px;
+    width: 75%;
+    font-style: italic;
+    font-size: 20px;
+}
+.noti{
+    display: block;
+    float: left;
+    background: gainsboro;
+    margin: 15px;
+    width: 75%;
+}

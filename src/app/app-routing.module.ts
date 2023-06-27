@@ -5,6 +5,8 @@ import { EstadisticasComponent } from './components/estadisticas/estadisticas.co
 import { GestionarComponent } from './components/gestionar/gestionar.component';
 import { RegisComponent } from './components/regis/regis.component';
 import { PrihomeComponent } from './components/prihome/prihome.component';
+import { CalendarioComponent } from './components/calendario/calendario.component';
+import { NotificacionesComponent } from './components/notificaciones/notificaciones.component';
 
 const routes: Routes = [
   {path:'', component:PrihomeComponent},
@@ -13,6 +15,8 @@ const routes: Routes = [
   {path:'gestionar', component:GestionarComponent},
   {path:'estadisticas', component:EstadisticasComponent},
   {path: 'regis', component:RegisComponent},
+  {path: 'calendario', component:CalendarioComponent},
+  {path: 'notificaciones', component:NotificacionesComponent},
 ];
 
 @NgModule({
