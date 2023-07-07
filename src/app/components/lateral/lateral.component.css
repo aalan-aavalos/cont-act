@@ -3,6 +3,7 @@
     float: left;
     background: gray;
     margin: 2% 2px;
+    width: auto;
 }
 ul a{
     display: block;
